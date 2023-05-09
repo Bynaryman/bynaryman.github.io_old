@@ -1,9 +1,6 @@
-.body {
+body {
   /* Choose the background image */
   background-image: url("../images/teras_180_wb.png");
-
-  /* Set the height of the parallax container */
-  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -12,4 +9,10 @@
   background-size: cover;
 }
 
-
+.content {
+  /* Style the content container */
+  position: relative;
+  padding: 50px;
+  color: #000; /* Change the color to contrast with the background image */
+  /* You can add other styles such as font-size, font-family, etc. */
+}
