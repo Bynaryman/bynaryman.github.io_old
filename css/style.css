@@ -1,2 +1,15 @@
-/* Add your custom styles here */
+.body {
+  /* Choose the background image */
+  background-image: url("../images/teras_180_wb.png");
+
+  /* Set the height of the parallax container */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
