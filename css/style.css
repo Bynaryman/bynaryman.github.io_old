@@ -5,18 +5,30 @@ html, body {
 }
 
 body {
+  /* Set up the main font color */
+  color: #fff;
+  font-family: Arial, sans-serif; /* You can choose a different font family */
+}
+
+
+.parallax {
+  /* Set the dimensions of the parallax container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
   /* Choose the background image */
   background-image: url("../images/teras_180_wb.png");
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* Set the background properties */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* Set up the main font color */
-  color: #fff;
-  font-family: Arial, sans-serif; /* You can choose a different font family */
+  /* Apply a z-index to position the background below the content */
+  z-index: -1;
 }
 
 .content {
@@ -25,7 +37,7 @@ body {
   max-width: 800px; /* Set the width of the middle column */
   margin: 0 auto; /* Center the content horizontally */
   padding: 50px;
-  background: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
+  background: rgba(128, 128, 128, 0.4); /* Semi-transparent white background */
   backdrop-filter: blur(10px); /* Add the blur effect */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
 }
