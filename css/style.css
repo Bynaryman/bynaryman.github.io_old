@@ -7,12 +7,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /* Set up the main font color */
+  color: #fff;
+  font-family: Arial, sans-serif; /* You can choose a different font family */
 }
 
 .content {
   /* Style the content container */
   position: relative;
+  max-width: 800px; /* Set the width of the middle column */
+  margin: 0 auto; /* Center the content horizontally */
   padding: 50px;
-  color: #000; /* Change the color to contrast with the background image */
-  /* You can add other styles such as font-size, font-family, etc. */
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Add the blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+}
+
+/* Add a text-shadow for better readability */
+h1, h2, p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
